@@ -1,0 +1,93 @@
+.personPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--title-primary);
+      }
+    
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        gap: 1rem;
+        width: 70%;
+    
+        form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1rem;
+          width: 60%;
+    
+    
+          input {
+            width: 100%;
+            padding: 0.5rem;
+            border: var(--text-dark) 1px solid;
+            border-radius: 5px;    
+          }
+        }
+      }
+    
+      .personList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        width: 60%;
+    
+        h2 {
+        font-size: 1rem;
+        font-weight: bold;
+        color: var(--title-primary);
+        width: 100%;
+        text-align: center;
+        padding: 0.5rem;
+        }
+        
+        table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 0;
+        font-size: 85%;
+        
+        th {
+            background-color: var(--bg-primary);
+            padding: 0.5rem;
+            border-top: 1px solid var(--text-dark);
+            border-bottom: 1px solid var(--text-dark);
+        }
+        
+        td {
+            padding: 0.5rem 0;
+            border-top: 1px solid var(--text-dark);
+            border-bottom: 1px solid var(--text-dark);
+        }
+        
+        tbody {
+            text-align: center;
+            padding: 0.5rem;
+            
+            tr:hover {
+            background-color: var(--border-gray);
+            }
+        }
+        
+    }
+    }
+}
