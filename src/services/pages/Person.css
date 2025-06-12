@@ -79,6 +79,20 @@ div {
             border-bottom: 1px solid var(--text-dark);
         }
         
+        tr button {
+            background: none;
+            color: red;
+            border: none;
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            position: absolute;
+
+            &:hover {
+                scale: 1.2;
+                font-weight: 600;
+            }
+        }
         tbody {
             text-align: center;
             padding: 0.5rem;
